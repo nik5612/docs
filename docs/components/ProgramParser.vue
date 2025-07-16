@@ -21,7 +21,7 @@ const showFilters = ref(false)
 
 onMounted(async () => {
   try {
-    const allPdfFiles = import.meta.glob('../program/**/*.pdf', {
+    const allPdfFiles = import.meta.glob('/docs/program/**/*.pdf', {
       as: 'url',
       eager: true
     })

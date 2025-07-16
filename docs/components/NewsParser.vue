@@ -8,7 +8,7 @@ const error = ref(null)
 
 onMounted(async () => {
   try {
-    const newsFiles = import.meta.glob('../news/*/*/*.md', { 
+    const newsFiles = import.meta.glob('/docs/news/*/*/*.md', { 
       eager: true,
       query: '?raw'
     })

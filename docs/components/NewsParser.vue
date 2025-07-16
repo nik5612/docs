@@ -21,7 +21,7 @@ onMounted(async () => {
   const frontmatter = parseFrontmatter(content);
   
   return {
-    url: `../news/${relativePath.replace('.md', '.html')}`,
+    url: `/docs/news/${relativePath.replace('.md', '.html')}`,
     title: frontmatter.title || fileName,
     date: parseDate(frontmatter.date),
     excerpt: frontmatter.excerpt || '',

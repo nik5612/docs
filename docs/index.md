@@ -4,7 +4,7 @@ layout: home
 title: "Главная"
 hero:
   image:
-    src: ./Logo.png
+    src: Logo.png
   name: "Пппппппп ппппппппппппппп ппппппп"
   text: "иииии И.И. Иииииииии"
   tagline: Технологии как смысл жизни

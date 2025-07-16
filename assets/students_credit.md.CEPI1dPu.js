@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as s}from"./chunks/framework.Bc-hQ86P.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"students/credit.md","filePath":"students/credit.md","lastUpdated":1752672541000}'),a={name:"students/credit.md"};function r(c,d,n,o,i,p){return s(),e("div")}const f=t(a,[["render",r]]);export{m as __pageData,f as default};

@@ -3,7 +3,7 @@ import { sidebarConfig } from './sidebarConfig.mts'
 
 
 export const themeConfig: DefaultTheme.Config = {  
-    logo: './Logo.png',
+    logo: '/docs/Logo.png',
     nav: [
       {
         text: 'Сведения об образовательной организации',

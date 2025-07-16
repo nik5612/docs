@@ -3,7 +3,7 @@ import { sidebarConfig } from './sidebarConfig.mts'
 
 
 export const themeConfig: DefaultTheme.Config = {  
-    logo: 'Logo.png',
+    logo: 'https://ooodirs.ru/img/cink/krestik.png',
     nav: [
       {
         text: 'Сведения об образовательной организации',

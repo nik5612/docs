@@ -4,13 +4,11 @@ import { themeConfig } from './themeConfig.mts'
 export default defineConfig({
 	base: '/docs/',
   themeConfig: themeConfig,
-  // Базовые настройки путей
-  // srcDir: '.',  // Корень проекта - /home/basealt/vitepress/
-  // outDir: './dist',  // Директория сборки
-  
-  // Критически важные настройки маршрутизации 
   cleanUrls: true,
-  // Настройки Vite
+  title: "ППП ии. И.И. Иииииииии",
+  description: "A VitePress Site",
+  lastUpdated: true,
+
   vite: {
     optimizeDeps: {
       include: ['papaparse', 'date-fns']
@@ -26,10 +24,5 @@ export default defineConfig({
       }
     ],
   },
-  
-
-  title: "ППП ии. И.И. Иииииииии",
-  description: "A VitePress Site",
-  lastUpdated: true,
 })
 

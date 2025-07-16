@@ -1,0 +1,6 @@
+apt-get install node npm
+npm add -D vitepress
+npm install papaparse date-fns glob
+npx vitepress init
+
+npm run docs:dev 

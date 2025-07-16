@@ -21,7 +21,7 @@ const showFilters = ref(false)
 
 onMounted(async () => {
   try {
-    const allPdfFiles = import.meta.glob('/docs/program/**/*.pdf', {
+    const allPdfFiles = import.meta.glob('docs/program/**/*.pdf', {
       as: 'url',
       eager: true
     })
@@ -51,7 +51,7 @@ onMounted(async () => {
     for (const programKey in programsMap) {
       const { year, code, files } = programsMap[programKey]
 
-      const metadataUrl = `/docs/program/${year}/${code}/metadata.txt`
+      const metadataUrl = `docs/program/${year}/${code}/metadata.txt`
       const metadataResponse = await fetch(metadataUrl)
       const metadataContent = await metadataResponse.text()
       const metadata = parseMetadata(metadataContent)

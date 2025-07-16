@@ -38,7 +38,7 @@ const truncateText = (text, maxLength = 150) => {
       </div>
       
       <div class="all-news-link">
-        <a href="/docs/news" class="all-news-button">Все новости →</a>
+        <a href="docs/news" class="all-news-button">Все новости →</a>
       </div>
     </div>
   </NewsParser>

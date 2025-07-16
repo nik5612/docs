@@ -56,10 +56,39 @@ features:
   }
 
   .VPHero .text {
-  font-size: var(--vp-home-hero-text-font-size) !important;
+    font-size: var(--vp-home-hero-text-font-size) !important;
   }
+
   .VPHero .tagline {
-  font-size: var(--vp-home-hero-tagline-font-size) !important;
+    font-size: var(--vp-home-hero-tagline-font-size) !important;
+  }
+
+  /* Мобильные стили */
+  @media (max-width: 768px) {
+    :root {
+      --vp-home-hero-tagline-font-size: 20px;
+      --vp-home-hero-text-font-size: 32px;
+      --vp-home-hero-name-font-size: 42px;
+    }
+    
+    .VPHero .name,
+    .VPHero .text,
+    .VPHero .tagline {
+      text-align: center;
+    }
+    
+    .VPHero .actions {
+      justify-content: center;
+    }
+  }
+
+  /* Очень маленькие экраны */
+  @media (max-width: 480px) {
+    :root {
+      --vp-home-hero-tagline-font-size: 18px;
+      --vp-home-hero-text-font-size: 28px;
+      --vp-home-hero-name-font-size: 36px;
+    }
   }
 </style>
 

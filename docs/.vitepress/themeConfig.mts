@@ -52,7 +52,7 @@ export const themeConfig: DefaultTheme.Config = {
           { text: 'Бесплатная юридическая помощь', link: '/students/legal-help' },
           { text: 'Трудоустройство. Центр содействия трудоустройству выпускников. Вакансии', link: '/students/employment' },
           { text: 'Образовательный кредит', link: '/students/credit' },
-          { text: 'Библиотека', link: '/students/library`' },
+          { text: 'Библиотека', link: '/students/library' },
           { text: 'События', link: '/students/events' },
           { text: 'Издательский центр', link: '/students/publishing' },
           { text: 'Заочное отделение', link: '/students/extramural' },

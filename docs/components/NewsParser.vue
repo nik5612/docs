@@ -8,7 +8,7 @@ const error = ref(null)
 
 onMounted(async () => {
   try {
-    const newsFiles = import.meta.glob('docs/news/*/*/*.md', { 
+    const newsFiles = import.meta.glob('../news/*/*/*.md', { 
       eager: true,
       query: '?raw'
     })
@@ -21,7 +21,7 @@ onMounted(async () => {
   const frontmatter = parseFrontmatter(content);
   
   return {
-    url: `docs/news/${relativePath.replace('.md', '.html')}`,
+    url: `../news/${relativePath.replace('.md', '.html')}`,
     title: frontmatter.title || fileName,
     date: parseDate(frontmatter.date),
     excerpt: frontmatter.excerpt || '',
@@ -75,7 +75,7 @@ function ensureAbsolutePath(imgPath, articlePath) {
   const articleDir = articlePath.split('/').slice(0, -1).join('/');
   
   // Собираем полный путь к изображению
-  return `docs/news/${articleDir}/${imgPath}`;
+  return `/docs/news/${articleDir}/${imgPath}`;
 }
 </script>
 

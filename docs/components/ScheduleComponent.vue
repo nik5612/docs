@@ -101,7 +101,7 @@ const generateLast7Days = () => {
 
 const loadAvailableDates = async () => {
   try {
-    const response = await fetch('docs/schedule/')
+    const response = await fetch('../schedule/')
     const text = await response.text()
     availableDates.value = text.match(/\d{2}\.\d{2}\.\d{4}(?=\.htm)/g) || []
     last7Days.value = generateLast7Days()
@@ -112,7 +112,7 @@ const loadAvailableDates = async () => {
 
 const loadSchedule = async (date) => {
   try {
-    const response = await fetch(`docs/schedule/${date}.htm`)
+    const response = await fetch(`../schedule/${date}.htm`)
     if (!response.ok) throw new Error('Файл не найден')
     const text = await response.text()
     scheduleData.value = parseHtmlSchedule(text)

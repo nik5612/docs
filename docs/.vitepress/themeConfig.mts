@@ -3,7 +3,7 @@ import { sidebarConfig } from './sidebarConfig.mts'
 
 
 export const themeConfig: DefaultTheme.Config = {  
-    logo: 'https://ppkslavyanova.ru/wp-content/uploads/2025/03/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B1%D0%B5%D0%B7-%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-1-3.png',
+    logo: './Logo.png',
     nav: [
       {
         text: 'Сведения об образовательной организации',
@@ -89,8 +89,8 @@ export const themeConfig: DefaultTheme.Config = {
     ],
 
     footer: {
-      message: 'Контакты: <a href="https://vk.com/ppkslavyanova_official">Группа в ВК</a>, sekretar@ppkslavyanova.ru, +7 (342) 260-21-92',
-      copyright: '© 2025 – настоящее время, Никита Б. ГБПОУ "ППК им. Н.Г. Славянова" 1919 - 2025'
+      message: 'Контакты: <a href="https://vk.com/ppkslavyanova_official">Группа в ВК</a>, bystrovno@basealt,ru, +7 (800) 555-35-35',
+      copyright: '© 2025 – настоящее время, Никита Б. ГГГГГ "ППП ии. И.И. Иииииииии" 1919 - 2025'
     },
 
     editLink: {

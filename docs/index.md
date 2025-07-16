@@ -4,9 +4,9 @@ layout: home
 title: "Главная"
 hero:
   image:
-    src: https://ppkslavyanova.ru/wp-content/uploads/2025/03/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B1%D0%B5%D0%B7-%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-1-3.png
-  name: "Пермский политехнический колледж"
-  text: "имени Н.Г. Славянова"
+    src: ./Logo.png
+  name: "Пппппппп ппппппппппппппп ппппппп"
+  text: "иииии И.И. Иииииииии"
   tagline: Технологии как смысл жизни
   actions:
     - theme: brand
@@ -102,7 +102,17 @@ import NewsTest from './components/NewsIndex.vue'
 <NewsTest />
 
 # Реставрация учебного корпуса
-<video controls="controls" src="https://ppkslavyanova.ru/wp-content/uploads/2025/03/7075899640376.mp4"></video>
+
+<!--<video controls="controls" src="https://rutube.ru/video/a63678e827b848e826d8160d2255fb5a/?r=plwd"></video>-->
+<iframe
+  width=100%
+  height="655"
+  src="https://rutube.ru/play/embed/a63678e827b848e826d8160d2255fb5a"
+  frameBorder="0"
+  allow="clipboard-write; autoplay"
+  allowFullScreen
+></iframe>
+    
 
 <br>
 

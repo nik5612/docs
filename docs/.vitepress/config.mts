@@ -28,7 +28,7 @@ export default defineConfig({
   },
   
 
-  title: "ППК им. Н.Г. Славянова",
+  title: "ППП ии. И.И. Иииииииии",
   description: "A VitePress Site",
   lastUpdated: true,
 })

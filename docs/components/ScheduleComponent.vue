@@ -364,6 +364,7 @@ watch(selectedDate, loadSchedule)
     <div class="schedule-content">
       <template v-if="scheduleData.length">
         <!-- Режим без группировки -->
+         
         <div v-if="groupBy === 'none'" class="schedule-table-container">
           <table class="schedule-table">
             <thead>
